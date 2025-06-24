@@ -1,0 +1,18 @@
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/smart_parking_management_system?createDatabaseIfNotExist=true
+    username: root
+    password: Ijse@1234
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+
+jwt:
+  secret: "4351cf1fc73a5438049070432d273ca79c5e6109eca76642667d0ff3b6d80d9419cfc66353bfe0ee7197f47a267383fccac12c9f8fc5cf0bbf4277115319618d"
