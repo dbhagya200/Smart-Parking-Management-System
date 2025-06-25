@@ -55,6 +55,16 @@ Created by **Dilini Bhagya Warnakulasooriya**
 
 ---
 
+## 📷 Screenshots
+![Eureka Dashboard](./docs/screenshots/eureka-dashboard.png) 
+
+
+---
+
+## 📮 Postman Collection
+[Postman Collection](./Smart-Parking-System.postman_collection.json)
+
+
 > ⭐ *Feel free to star the repo if you found it helpful!*
 
 
