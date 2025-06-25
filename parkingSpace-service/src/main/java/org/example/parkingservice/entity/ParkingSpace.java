@@ -1,4 +1,4 @@
-package lk.ijse.parkingservice.entity;
+package org.example.parkingservice.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -14,12 +14,8 @@ import lombok.NoArgsConstructor;
 @Data
 public class ParkingSpace {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
-
+    private String spaceNumber;
     private String location;
-    private String slotNumber;
     private boolean available;
-    private String vehicleType;
-    private String status;
+    private String reservedByEmail;
 }

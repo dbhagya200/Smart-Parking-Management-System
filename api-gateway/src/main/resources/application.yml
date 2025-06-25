@@ -60,3 +60,9 @@ spring:
                   args:
                     pattern: /auth-service/**
 
+            - id: parking-service
+              uri: lb://PARKING-SERVICE
+              predicates:
+                - name: Path
+                  args:
+                    pattern: /parking-service/**

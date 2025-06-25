@@ -1,8 +1,5 @@
 package org.example.vehicleservice.controller;
 
-
-
-
 import org.example.vehicleservice.dto.VehicleDTO;
 import org.example.vehicleservice.feign.ClientVehicle;
 import org.example.vehicleservice.repo.VehicleRepo;

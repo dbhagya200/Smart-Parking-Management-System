@@ -1,4 +1,4 @@
-package lk.ijse.parkingservice;
+package org.example.parkingservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

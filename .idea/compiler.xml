@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="api-gateway" />
         <module name="eureka-server" />
+        <module name="config-server" />
       </profile>
       <profile name="Annotation profile for parking-service" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -19,8 +20,8 @@
         </processorPath>
         <module name="auth-service" />
         <module name="user-service" />
+        <module name="parkingSpace-service" />
         <module name="vehicle-service" />
-        <module name="parking-service" />
       </profile>
     </annotationProcessing>
   </component>
@@ -30,7 +31,7 @@
       <module name="auth-service" options="-parameters" />
       <module name="config-server" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
-      <module name="parking-service" options="-parameters" />
+      <module name="parkingSpace-service" options="-parameters" />
       <module name="user-service" options="-parameters" />
       <module name="vehicle-service" options="-parameters" />
     </option>
